@@ -1,0 +1,5 @@
+helm create helloworld
+microk8s helm install myhelloworld helloworld
+microk8s helm list -a
+hostname -I
+microk8s helm uninstall myhelloworld 
